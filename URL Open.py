@@ -1,5 +1,7 @@
 import re
 import urllib.request, urllib.parse, urllib.error
+from bs4 import BeautifulSoup
+
 
 fhand = urllib.request.urlopen('http://www.google.com')
 counts = dict()
