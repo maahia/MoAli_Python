@@ -1,4 +1,4 @@
-import xml.etree.ElementTree as ET
+import Lib.xml.etree.ElementTree as ET
 
 input = '''
 <stuff>
