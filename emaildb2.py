@@ -25,7 +25,7 @@ for line in fh:
     else:
         cur.execute('UPDATE Counts SET count = count + 1 WHERE org = ?',
                     (org,))
-    cur.execute('SELECT count FROM Counts GROUP BY count ORDER BY count DESC')
+        cur.execute('SELECT count FROM Counts GROUP BY count ORDER BY count DESC')
     conn.commit()
 
 # https://www.sqlite.org/lang_select.html
